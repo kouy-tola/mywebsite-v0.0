@@ -1,0 +1,774 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Soma Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+
+<!-- ======== Navigation Header Bar ===================================-->
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li class="img-notice-01" style="border: solid 3px rgb(255, 255, 255); 
+                border-radius: 30px; font-size: 25px; width: 120px; height: 30px; 
+                text-align: center;">
+                    <a href="index.html" style="color: white;">Home</a></li>
+                <li class="img-notice-01"><img src="images/notification.png"></li>
+                <li class="img-notice-01"><img src="images/inbox.png"></li>
+                <li class="img-notice-01"><img src="images/video.png"></li>
+            </ul>
+        </div>
+        
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" class="seach-box-1">
+                <input type="text" placeholder="Search" class="seach-box-2">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+
+        
+<!-- ========== Header Page on Setting Profile =====================-->
+        <!----- setting-menu----------------------->
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>SOMA Tech</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="user-profile" id="user-profile-01">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to Improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+<!-- ========== Left Side Bar Content =======================-->
+        <!----- left-sidebar----------------------->
+    <div class="container">    
+        <div class="left-sidebar">
+            <p style="font-weight: bolder;">Menu List
+                <div style="width: 100%; height: 2px; background-color: blue; line-height: 30px;"></div>
+            </p><br>
+            <div class="imp-links">              
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/icons8_book.png"> Books</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/icons8_language.png"> Language</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/watch.png"> Video</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/YouTube_32.png"> YouTube</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/group.png"> Community</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/icons8_department.png"> Ministry</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/icons8_city_hall.png"> Government</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"><img src="images/icons8_city_hall.png"> Other</a>
+            </div><br>
+            <p style="line-height: 20px; font-weight: bolder;">Social Communication
+                <div style="width: 100%; height: 2px; background-color: blue;"></div>
+                <div style="width: 100%; height: 20px;"></div>
+            </p>
+            <div class="shortcut-links">
+                
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-1.png"> Facebook Personal</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-2.png"> Facebook Group</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-3.png"> Facebook Page</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-4.png"> Telegram Personal</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-4.png"> Telegram Group</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-4.png"> Telegram Channel</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-4.png"> Wechat Personal</a>
+                <a href="../my website/menu-nev.html" class="left-bar-01"> <img src="images/shortcut-4.png"> Wechat Group</a>
+            </div>
+        </div>
+
+
+
+<!-- ========== Center Header Story Content =========================== -->
+        <!----- main-content---------------------->
+        
+        <div class="main-content">
+            <div class="posting-header-alert">
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/upload.png">
+                        <p>Web Alert</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="images/member-1.png">
+                        <p>Kouy Tola</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="images/member-2.png">
+                        <p>Kouy Tola 1</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="images/member-3.png">
+                        <p>Kouy Tola 2</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="images/member-4.png">
+                        <p>Kouy Tola 3</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+<!-- =========== Center Post on Mind ===================-->
+        <!--
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p class="on-mind-user">Soma Tech</p>
+                        <small>Public <i class="fa-thin fa-sort-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Soma Tech?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#" id="links-01"><img src="images/live-video.png">Live Video</a>
+                        <a href="#" id="links-01"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#" id="links-01"><img src="images/feeling.png">Feeling Activity</a>
+                    </div>
+                </div>
+            </div>
+
+        -->
+
+<!-- =========== Center Content Show Image ===================-->
+            
+        <!-- 1 Center Content -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Kouy Tola</p>
+                            <span>June 24 2021, 13:40 PM</span>
+                        </div>
+                    </div>
+                </div><br><br><br>
+                <div class="information-alert" style="border: 3px solid blue; 
+                height: 500px; padding-top: 50px; box-shadow: 13px 10px 10px 15px rgb(125, 125, 177);">
+                    <ul style="margin-left: 30px;">
+                        <h4 style="line-height: 50px;">Message Alert:</h4>
+                        <li>Welcome to SOMA Tech Website.</li>
+                        <li>New Release on Update Information will run on 20.11.2023. 
+                            Please be take noted if you all use this website
+                        </li>
+                    </ul><br>
+                        <div class="alert">
+                        <span class="closebtn">&times;</span>  
+                        <strong>Website Free Course Online!</strong> Indicates a improving lesson for student.
+                        </div>
+
+                        <div class="alert success">
+                        <span class="closebtn">&times;</span>  
+                        <strong>Success!</strong> Indicates a successful or positive action.
+                        </div>
+
+                        <div class="alert info">
+                        <span class="closebtn">&times;</span>  
+                        <strong>Info!</strong> Indicates a ability accepted.
+                        </div>
+
+                        <div class="alert warning">
+                        <span class="closebtn">&times;</span>  
+                        <strong>Attention!</strong> Participate to website all information is onhand.
+                        </div>
+                </div>                
+            </div>
+        </div>
+
+
+        <style>
+            .alert {
+              padding: 20px;
+              background-color: #f44336;
+              color: white;
+              opacity: 1;
+              transition: opacity 0.6s;
+              margin-bottom: 15px;
+            }
+            
+            .alert.success {background-color: #04AA6D;}
+            .alert.info {background-color: #2196F3;}
+            .alert.warning {background-color: #ff9800;}
+            
+            .closebtn {
+              margin-left: 15px;
+              color: white;
+              font-weight: bold;
+              float: right;
+              font-size: 22px;
+              line-height: 20px;
+              cursor: pointer;
+              transition: 0.3s;
+            }
+            
+            .closebtn:hover {
+              color: black;
+            }
+            </style>
+
+            <script>
+                var close = document.getElementsByClassName("closebtn");
+                var i;
+                
+                for (i = 0; i < close.length; i++) {
+                close[i].onclick = function(){
+                    var div = this.parentElement;
+                    div.style.opacity = "0";
+                    setTimeout(function(){ div.style.display = "none"; }, 600);
+                }
+                }
+            </script>
+
+
+
+
+<!-- = RIGNT SIDE BAR =========================== -->
+    <!----- right-sidebar----------------------->
+    <!-- Event 1 -->
+        <div class="right-sidebar">
+            <div class="right-side-border" style="border: solid 3px blue; padding: 5px;">
+            <div class="event-box">
+                <div class="sidebar-title">
+                    <h4>Popular News</h4>
+                    <a href="#"></a>                    
+                </div>
+    
+                <div class="events">
+                    <div class="left-events">
+                        <img src="images/calendar.png" alt="calendar-image" style="width: 60px; height: auto; border-radius: 20px;">
+                        <span>March</span>
+                    </div>
+                    <div class="right-events">
+                        <h4>Event</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> Cambodia is the most wonderful Park</p>
+                        <a href="#"></a>
+                        
+                        <div class="sidenav">                            
+                            <button class="dropdown-btn" style="background-color: rgba(4, 4, 246, 0.5); color: white;">
+                                Cambodia Public Holiday 2023 : Total 21 Days
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#" style="margin-left: 2px;">1- 01-Jan: International New Year Day</a>
+                                <a href="#" style="margin-left: 2px;">2- 01-Jan: Victory over Genocide Day</a>
+                                <a href="#" style="margin-left: 2px;">3- 08-Mar: International Women's Day</a>
+                                <a href="#" style="margin-left: 2px;">4- 14.15.16-Apr: Khmer New Year Day</a>
+                                <a href="#" style="margin-left: 2px;">5- 01-May: International Labor Day</a>
+                                <a href="#" style="margin-left: 2px;">6- 04-May: Visak Bochea Day</a>
+                                <a href="#" style="margin-left: 2px;">7- 08-May: Royal Plowing Ceremony</a>
+                                <a href="#" style="margin-left: 2px;">8- 14-May: King's Birthday, Norodom Sihamoni</a>
+                                <a href="#" style="margin-left: 2px;">9- 18-Jun: Queen Mother's Birthday, Norodom Monineath Sihanouk</a>
+                                <a href="#" style="margin-left: 2px;">10- 24-Sep: Constitutional Day</a>
+                                <a href="#" style="margin-left: 2px;">11- 13.14.15-Oct: Pchum Ben Day</a>
+                                <a href="#" style="margin-left: 2px;">12- 15-Oct: Commemoration Day of King's Father, Norodom Sihanouk</a>
+                                <a href="#" style="margin-left: 2px;">13- 29-Oct: King's Coronation Day, Norodom Sihamoni</a>
+                                <a href="#" style="margin-left: 2px;">14- 09-Nov: Independence Day</a>
+                                <a href="#" style="margin-left: 2px;">15- 26.27.28-Nov: Water Festival Ceremony</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                body {
+                  font-family: "Lato", sans-serif;
+                }
+                .sidenav {
+                  width: 400px;
+                  height: 100%;                  
+                  /*position: fixed;*/
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  padding-top: 5px;
+                  background-color: #ffffff;
+                  color: rgb(0, 1, 0);                  
+                  overflow-y: auto;
+                }
+                .sidenav a, .dropdown-btn {
+                  padding: 15px 8px 6px 5px;
+                  text-decoration: none;
+                  font-size: 12px;
+                  color: #000000;
+                  display: block;
+                  border: none;
+                  background: none;
+                  width: 100%;
+                  height: 35px; /*========== New Code ========*/
+                  text-align: left;
+                  cursor: pointer;
+                  outline: none;
+                }
+                .sidenav a:hover, .dropdown-btn:hover {
+                  color: #ffffff;
+                  background-color: rgb(44, 52, 199, 0.5);
+                }
+                .active {
+                  background-color: rgb(44, 52, 199, 0.5);
+                  color: rgb(255, 255, 255);
+                }
+                .dropdown-container {
+                  display: none;
+                  background-color: #ffffff;
+                  padding-left: 8px;
+                }
+                .fa-caret-down {
+                  float: right;
+                  padding-right: 8px;
+                }
+                @media screen and (max-height: 250px) {
+                  .sidenav {padding-top: 5px;}
+                  .sidenav a {font-size: 8px;}
+                }
+            </style>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+            
+        
+    <!--=== Event 2 =================================================-->
+            <div class="events">
+                <div class="left-events">
+                    <h3>
+                        <img src="images/maps.png" alt="maps" style="width: 60px; height: auto; border-radius: 20px;">
+                    </h3>
+                    <span>Maps</span>
+                </div>
+                <div class="right-events">
+                    <h4>Marketing Segmentation</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Located in Cambodia at central heard of Phnom Peng City</p>
+                    
+                    <div class="sidenav">                            
+                        <button class="dropdown-btn-2" style="background-color: rgba(4, 4, 246, 0.5); color: white;">
+                            Cambodia Public Holiday 2023
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="#" style="margin-left: 2px;">1- Kandal</a>
+                            <a href="#" style="margin-left: 2px;">2- Kompong Spue</a>
+                            <a href="#" style="margin-left: 2px;">3- Kompong Cham</a>
+                            <a href="#" style="margin-left: 2px;">4- Svay Reing</a>
+                            <a href="#" style="margin-left: 2px;">5- Takeo</a>
+                            <a href="#" style="margin-left: 2px;">6- Kep</a>
+                            <a href="#" style="margin-left: 2px;">7- Kompot</a>
+                            <a href="#" style="margin-left: 2px;">8- Preah Sihanouk</a>
+                            <a href="#" style="margin-left: 2px;">9- Koh Kong</a>
+                            <a href="#" style="margin-left: 2px;">10- Pursat</a>
+                            <a href="#" style="margin-left: 2px;">11- Kompong Thom</a>
+                            <a href="#" style="margin-left: 2px;">12- Prey Veng</a>
+                            <a href="#" style="margin-left: 2px;">13- Kratie</a>
+                            <a href="#" style="margin-left: 2px;">14- Mondul Kiri</a>
+                            <a href="#" style="margin-left: 2px;">15- Rathanak Kiri</a>
+                            <a href="#" style="margin-left: 2px;">16- Steng Treng</a>
+                            <a href="#" style="margin-left: 2px;">17- Oudor Mean Chey</a>
+                            <a href="#" style="margin-left: 2px;">18- Preah Vihear</a>
+                            <a href="#" style="margin-left: 2px;">19- Seim Reap</a>
+                            <a href="#" style="margin-left: 2px;">20- Bantay Mean Chey</a>
+                            <a href="#" style="margin-left: 2px;">21- Bathambong</a>
+                            <a href="#" style="margin-left: 2px;">22- Pai Lin</a>
+                            <a href="#" style="margin-left: 2px;">23- Krong Soung</a>
+                            <a href="#" style="margin-left: 2px;">24- Phnom Penh Capital</a>
+                        </div>                            
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <style>
+                body {
+                  font-family: "Lato", sans-serif;
+                }
+                .sidenav {
+                  width: 400px;
+                  height: 100%;                  
+                  /*position: fixed;*/
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  padding-top: 5px;
+                  background-color: #ffffff;
+                  color: rgb(0, 1, 0);                  
+                  overflow-y: auto;
+                }
+                .sidenav a, .dropdown-btn-2 {
+                  padding: 15px 8px 6px 5px;
+                  text-decoration: none;
+                  font-size: 12px;
+                  color: #000000;
+                  display: block;
+                  border: none;
+                  background: none;
+                  width: 100%;
+                  height: 35px; /*========== New Code ========*/
+                  text-align: left;
+                  cursor: pointer;
+                  outline: none;
+                }
+                .sidenav a:hover, .dropdown-btn-2:hover {
+                  color: #ffffff;
+                  background-color: rgb(44, 52, 199, 0.5);
+                }
+                .active {
+                  background-color: rgb(44, 52, 199, 0.5);
+                  color: rgb(255, 255, 255);
+                }
+                .dropdown-container {
+                  display: none;
+                  background-color: #ffffff;
+                  padding-left: 8px;
+                }
+                .fa-caret-down {
+                  float: right;
+                  padding-right: 8px;
+                }
+                @media screen and (max-height: 250px) {
+                  .sidenav {padding-top: 5px;}
+                  .sidenav a {font-size: 8px;}
+                }
+            </style>
+
+
+            <script>
+                /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                var dropdown = document.getElementsByClassName("dropdown-btn-2");
+                var i;
+                
+                for (i = 0; i < dropdown.length; i++) {
+                  dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                      dropdownContent.style.display = "none";
+                    } else {
+                      dropdownContent.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+        
+    <!--Advertistment -->
+            <div class="sidebar-title">
+                <h4>Advertistment</h4>
+                <a href="#"></a>
+            </div>
+            <img src="images/advertising.png" class="sidebar-ads">
+
+        </div><br> <!-- Close Braket from Class Right Side Border -->
+    <!--Conversation-->
+            <div class="sidebar-title">
+                <h4>Lesson List</h4>
+                <a href="#"></a>
+            </div>
+        
+        
+    <!--Chart ==============================-->
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <div class="chat-box">
+                <!-- =============== Create for Search Box ================ -->
+                <div class="row">
+                    <div class="left" style="background-color:#dbd8d8;">                       
+                        <ul id="myMenu">
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-1.png">
+                                        </div>
+                                        <p>Grade 1: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-2.png">
+                                        </div>
+                                        <p>Grade 1: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 1: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 6: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 2: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 2: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 2: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 3: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 3: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 3: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 4: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 4: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 4: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 5: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 5: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 5: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 6: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 6: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="images/member-3.png">
+                                        </div>
+                                        <p>Grade 6: Social</p>
+                                    </div>
+                                </a>
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2023 Soma Tech</p>
+    </div>
+
+
+<script>
+    function myFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMenu");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+</script>
+<!-- ================================================= -->
+
+<script src="Script.js"></script>
+</body>
+</html>
