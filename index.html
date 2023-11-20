@@ -1,0 +1,2182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Soma Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- ======== Navigation Header Bar ===================================-->
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li class="img-notice-01">
+                    <a href="header-notification.html">
+                        <img src="images/notification.png">
+                </li>
+                    </a>
+                <li class="img-notice-01">
+                    <a href="header-message.html">
+                        <img src="images/inbox.png">
+                    </a>
+                </li>
+                <li class="img-notice-01">
+                    <a href="header-video.html">
+                        <img src="images/video.png">
+                    </a>                    
+                </li>
+            </ul>
+        </div>
+        
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" class="seach-box-1">
+                <input type="text" placeholder="Search" class="seach-box-2">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+
+        
+<!-- ========== Header Page on Setting Profile =====================-->
+        <!----- setting-menu----------------------->
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>SOMA Tech</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="user-profile" id="user-profile-01">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to Improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links" id="user-profile-01">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+<!-- ========== Left Side Bar Content =======================-->
+        <!----- left-sidebar----------------------->
+    <div class="container">    
+        <div class="left-sidebar">
+            <p style="font-weight: bolder;">Menu List
+                <div style="width: 100%; height: 2px; background-color: blue; line-height: 30px;"></div>
+            </p><br>
+            <input type="text" id="mySearch_menu_list" onkeyup="myFunction_search_menu()" placeholder="Search.." title="Type in a category" 
+            style="width: 100%; height: 50px; font-size: 25px;">
+    
+
+            <div class="chat-box">
+                <!-- =============== Create for Search Box ================ -->
+                <div class="row">
+                    <div class="left" style="background-color:#dbd8d8;">                       
+                        <ul id="myMenu_search_list">
+                            
+                            <li>
+                                <a href="1-books-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>BOOKS</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="2-language-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/language-img.png">
+                                        </div>
+                                        <p>LANGUAGE</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="3-video-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/video.png">
+                                        </div>
+                                        <p>VIDEO</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="4-youtube-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/youtube.png">
+                                        </div>
+                                        <p>YOUTUBE</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="5-communication-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/communication.png">
+                                        </div>
+                                        <p>COMMUNICATION</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="6-ministry-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/ministry.png">
+                                        </div>
+                                        <p>MINISTRY</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="7-government-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/government2.png">
+                                        </div>
+                                        <p>GOVERNMENT</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="8-other-menu.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/upload.png">
+                                        </div>
+                                        <p>OTHER</p>
+                                    </div>
+                                </a>
+                            </li>                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <script>
+                function myFunction_search_menu() {
+                  var input, filter, ul, li, a, i;
+                  input = document.getElementById("mySearch_menu_list");
+                  filter = input.value.toUpperCase();
+                  ul = document.getElementById("myMenu_search_list");
+                  li = ul.getElementsByTagName("li");
+                  for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                      li[i].style.display = "";
+                    } else {
+                      li[i].style.display = "none";
+                    }
+                  }
+                }
+            </script>
+
+
+            <div>
+                <p style="line-height: 100px; font-weight: bolder;">
+                    Social Communication
+                    <div style="width: 100%; height: 2px; background-color: blue; margin: -32px 0 0 0;"></div>
+                    <div style="width: 100%; height: 20px;"></div>
+                </p>
+            </div>      
+            
+            
+
+            <input type="text" id="mySearch_communication" onkeyup="myFunction_search_communication()" placeholder="Search.." title="Type in a category" 
+            style="width: 100%; height: 50px; font-size: 25px;">
+    
+            <div class="chat-box">
+                <!-- =============== Create for Search Box ================ -->
+                <div class="row">
+                    <div class="left" style="background-color:#dbd8d8;">                       
+                        <ul id="myMenu_communicate" style="overflow-y: auto;">
+                            
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/facebook.png">
+                                        </div>
+                                        <p>FACEBOOK PERSONAL</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/facebook.png">
+                                        </div>
+                                        <p>FACEBOOK GROUP</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/facebook.png">
+                                        </div>
+                                        <p>FACEBOOK PAGE</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/telegram.png">
+                                        </div>
+                                        <p>TELEGRAM PERSONAL</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/telegram.png">
+                                        </div>
+                                        <p>TELEGRAM GROUP</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/telegram.png">
+                                        </div>
+                                        <p>TELEGRAM CHANNEL</p>
+                                    </div>
+                                </a>
+                            </li>    
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/instagram.png">
+                                        </div>
+                                        <p>Instagram</p>
+                                    </div>
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="social-communication.html" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/email.png">
+                                        </div>
+                                        <p>Email</p>
+                                    </div>
+                                </a>
+                            </li>                     
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            function myFunction_search_communication() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("mySearch_communication");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myMenu_communicate");
+              li = ul.getElementsByTagName("li");
+              for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } else {
+                  li[i].style.display = "none";
+                }
+              }
+            }
+        </script>
+
+<!-- ========== Center Header Story Content =========================== -->
+        <!----- main-content---------------------->
+        
+        <div class="main-content">
+            <div class="posting-header-alert">
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/upload.png">
+                        <p>Web Alert</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="photo/book-img.png">
+                        <p>Kouy Tola</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="photo/book-img.png">
+                        <p>Kouy Tola 1</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="photo/book-img.png">
+                        <p>Kouy Tola 2</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="photo/book-img.png">
+                        <p>Kouy Tola 3</p>
+                    </div>
+                    <div class="story story6">
+                        <img src="photo/book-img.png">
+                        <p>Kouy Tola 3</p>
+                    </div>
+                    <div class="story story7">
+                        <img src="photo/book-img.png">
+                        <p>Kouy Tola 3</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+<!-- =========== Center Post on Mind ===================-->
+
+        <div class="write-post-container">
+            <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p class="on-mind-user">Soma Tech</p>
+                    <small>Public <i class="fa-thin fa-sort-down"></i></small>
+                </div>
+            </div>
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's on your mind, Soma Tech?"></textarea>
+                <div class="add-post-links">
+                    <a href="#" id="links-01"><img src="images/live-video.png">Live Video</a>
+                    <a href="#" id="links-01"><img src="images/photo.png">Photo/Video</a>
+                    <a href="#" id="links-01"><img src="images/feeling.png">Feeling Activity</a>
+                </div>
+            </div>
+        </div>
+
+        
+
+<!-- =========== Center Content Show Image ===================-->
+            
+        <!-- 1 Center Content -->
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color:rgba(0,159,230,1.00); 
+                width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">SOMA TECH</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech:
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+            </p>
+            <div style="width: 100%; margin: auto; display: inline-block;">
+                <img src="images/profile-pic.png" class="post-img" style="width: 50%;margin: auto; display: block; border-radius: 30px;">
+            </div>
+
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div>  <br>        
+                        
+            
+    <!-- ====================================================================-->
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: rgb(255, 0, 0,0.5); width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">SOMA TECH YOUTUBE CHANNEL</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/youtube-img.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+           
+            <!-- ====================================================================-->
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color:rgba(83,72,182,1.00); width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div class="detail-view-head">
+                        <p style="color: white;">SOMA TECH FACEBOOK PAGE</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="images/2023-11-10_201918.jpg" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div>    <br>
+            
+            
+            <!-- ====================================================================-->
+        
+            
+         <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color:rgba(83,72,182,1.00); width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">SOMA TECH FACEBOOK GROUP</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/fb-group.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">TELEGRAM CHANNEL</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://t.me/+fBYJgFIYC0M2Yzg9" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TELEGRAM CHANNEL:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                
+                
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/telegramchannel.png" class="post-img" style="width: 50%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+        
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">TELEGRAM GROUP</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/telegram-group.png" class="post-img" style="width: 70%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">TELEGRAM PERSONAL</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://t.me/kouy_tola" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @Telegram Personal:
+                    </a></span>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                
+                
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/telegrampersonal.png" class="post-img" style="width: 70%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">TIKTUK</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/tiktukqr.png" class="post-img" style="width: 50%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">YOUTUBE SHORT</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/ytshort.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">BOOKS</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                    <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                    @Somatech</a></span>
+                Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a>                    
+                </span>Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a>
+                </span>Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a>
+                </span>Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a>
+                </span>Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a>
+                </span>Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                </a>
+                </span>Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                </a>
+                </span>Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/book-img.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">LANGUAGES</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/language-img.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">VIDEO</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a> </span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/video.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">YOUTUBE VIDEO</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/youtubenew.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">COMMUNICATION</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="images/advertisement.png" class="post-img" style="width: 80%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">MINISTRY</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                    </a></span>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/ministry.png" class="post-img" style="width: 70%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+        <div class="post-container">            
+            <div class="post-row">
+                <div class="user-profile" style="background-color: black; width: 100%; height: 50px; box-shadow: 3px 0px 0px 1px blue;">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p style="color: white;">GOVERNMENT</p>
+                        <span style="color: white; font-size: 15px;">Feb 04 2023, Cambodia</span>                        
+                    </div>              
+                </div>
+            </div>
+            <p class="post-text">
+                Subcribe <span>
+                    <a href="https://www.youtube.com/@kouytola/playlists" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Somatech
+                    </a></span> <br>
+                        Youtube channel to watch most video as an knowledge use in daily work and video editor. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=zDC8nQQzoO8&list=PLJCxTtah8U45DaxBCihGFKJfQUvfEI_BN" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Word Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to the most powerful use in word from microsoft. Tap and Option were describe in the video. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=EcXmahogPlE&list=PLJCxTtah8U44uMIViWjDAau9VK6A4qw9n" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @MS Excel Playlist:                        
+                    </a></span> <br>
+                        Video express from basic to advance on how to use excel tap and formulation. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Premiere Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Premiere Pro on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use Adobe Dreamweaver on tap and function. <br>
+                Subcribe<span>
+                    <a href="https://www.youtube.com/watch?v=-yriWv8q6WE&list=PLJCxTtah8U44aJq5Dh_-pD8235snB66Ac" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="yt" style="width: 15px; height: 15px;">
+                        @Adobe Dreamweaver Playlist:                         
+                    </a></span> <br>
+                        Video express from basic to advance on how to use technical for computer, telephone application and maintenence. <br>
+                Subscribe <span>
+                    <a href="https://www.tiktok.com/@tola_ky?_t=8hFO43phs2s&_r=1" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @TikTuk Video:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>
+                Subscribe <span>
+                    <a href="https://www.youtube.com/@kouytola/shorts" style="background-color: #dbd8d8;">
+                        <img src="images/youtube.png" alt="tt" style="width: 15px; height: 15px;">
+                        @YouTube Short:
+                    </a></span> <br>
+                        Video express for relate lesson from youtube and facebook. Another field will display in TikTuk also. <br>       
+            </p>
+            <div style="width: 100%; margin: 5px;">
+                <img src="photo/government.png" class="post-img" style="width: 70%; margin: auto; display: block; border-radius: 30px;">
+            </div>
+            <!--<img src="images/profile-pic.png" class="post-img" style="border: 2px solid blue;">-->
+            <div class="post-row">
+                <div class="activity-icons">
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/profile-pic.png"> <i class="fa-thin fa-sort-down"></i>
+                </div>
+            </div>
+        </div> <br>
+            
+            
+            
+    </div>
+
+
+
+<!-- = RIGNT SIDE BAR =========================== -->
+    <!----- right-sidebar----------------------->
+    <!-- Event 1 -->
+        <div class="right-sidebar">
+            <div class="right-side-border" style="border: solid 3px blue; padding: 5px;">
+            <div class="event-box">
+                <div class="sidebar-title">
+                    <h4>Popular News</h4>
+                    <a href="#"></a>                    
+                </div>
+    
+                <div class="events">
+                    <div class="left-events">
+                        <img src="images/calendar.png" alt="calendar-image" style="width: 60px; height: auto; border-radius: 20px;">
+                        <span>March</span>
+                    </div>
+                    <div class="right-events">
+                        <h4>Event</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> Cambodia is the most wonderful Park</p>
+                        <a href="#"></a>
+                        
+                        <div class="sidenav">                            
+                            <button class="dropdown-btn" style="background-color: rgba(4, 4, 246, 0.5); color: white;">
+                                Cambodia Public Holiday 2023 : Total 21 Days
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#" style="margin-left: 2px;">1- 01-Jan: International New Year Day</a>
+                                <a href="#" style="margin-left: 2px;">2- 01-Jan: Victory over Genocide Day</a>
+                                <a href="#" style="margin-left: 2px;">3- 08-Mar: International Women's Day</a>
+                                <a href="#" style="margin-left: 2px;">4- 14.15.16-Apr: Khmer New Year Day</a>
+                                <a href="#" style="margin-left: 2px;">5- 01-May: International Labor Day</a>
+                                <a href="#" style="margin-left: 2px;">6- 04-May: Visak Bochea Day</a>
+                                <a href="#" style="margin-left: 2px;">7- 08-May: Royal Plowing Ceremony</a>
+                                <a href="#" style="margin-left: 2px;">8- 14-May: King's Birthday, Norodom Sihamoni</a>
+                                <a href="#" style="margin-left: 2px;">9- 18-Jun: Queen Mother's Birthday, Norodom Monineath Sihanouk</a>
+                                <a href="#" style="margin-left: 2px;">10- 24-Sep: Constitutional Day</a>
+                                <a href="#" style="margin-left: 2px;">11- 13.14.15-Oct: Pchum Ben Day</a>
+                                <a href="#" style="margin-left: 2px;">12- 15-Oct: Commemoration Day of King's Father, Norodom Sihanouk</a>
+                                <a href="#" style="margin-left: 2px;">13- 29-Oct: King's Coronation Day, Norodom Sihamoni</a>
+                                <a href="#" style="margin-left: 2px;">14- 09-Nov: Independence Day</a>
+                                <a href="#" style="margin-left: 2px;">15- 26.27.28-Nov: Water Festival Ceremony</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                }
+                .sidenav {
+                  width: 400px;
+                  height: 100%;                  
+                  /*position: fixed;*/
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  padding-top: 5px;
+                  background-color: #ffffff;
+                  color: rgb(0, 1, 0);                  
+                  overflow-y: auto;
+                }
+                .sidenav a, .dropdown-btn {
+                  padding: 15px 8px 6px 5px;
+                  text-decoration: none;
+                  font-size: 12px;
+                  color: #000000;
+                  display: block;
+                  border: none;
+                  background: none;
+                  width: 100%;
+                  height: 35px; /*========== New Code ========*/
+                  text-align: left;
+                  cursor: pointer;
+                  outline: none;
+                }
+                .sidenav a:hover, .dropdown-btn:hover {
+                  color: #ffffff;
+                  background-color: rgb(44, 52, 199, 0.5);
+                }
+                .active {
+                  background-color: rgb(44, 52, 199, 0.5);
+                  color: rgb(255, 255, 255);
+                }
+                .dropdown-container {
+                  display: none;
+                  background-color: #ffffff;
+                  padding-left: 8px;
+                }
+                .fa-caret-down {
+                  float: right;
+                  padding-right: 8px;
+                }
+                @media screen and (max-height: 250px) {
+                  .sidenav {padding-top: 5px;}
+                  .sidenav a {font-size: 8px;}
+                }
+            </style>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+            
+        
+    <!--=== Event 2 =================================================-->
+            <div class="events">
+                <div class="left-events">
+                    <h3>
+                        <img src="images/maps.png" alt="maps" style="width: 60px; height: auto; border-radius: 20px;">
+                    </h3>
+                    <span>Maps</span>
+                </div>
+                <div class="right-events">
+                    <h4>Marketing Segmentation</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Located in Cambodia at central heard of Phnom Peng City</p>
+                    
+                    <div class="sidenav">                            
+                        <button class="dropdown-btn-2" style="background-color: rgba(4, 4, 246, 0.5); color: white;">
+                            Province in Cambodia
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <a href="#" style="margin-left: 2px;">1- Kandal</a>
+                            <a href="#" style="margin-left: 2px;">2- Kompong Spue</a>
+                            <a href="#" style="margin-left: 2px;">3- Kompong Cham</a>
+                            <a href="#" style="margin-left: 2px;">4- Svay Reing</a>
+                            <a href="#" style="margin-left: 2px;">5- Takeo</a>
+                            <a href="#" style="margin-left: 2px;">6- Kep</a>
+                            <a href="#" style="margin-left: 2px;">7- Kompot</a>
+                            <a href="#" style="margin-left: 2px;">8- Preah Sihanouk</a>
+                            <a href="#" style="margin-left: 2px;">9- Koh Kong</a>
+                            <a href="#" style="margin-left: 2px;">10- Pursat</a>
+                            <a href="#" style="margin-left: 2px;">11- Kompong Thom</a>
+                            <a href="#" style="margin-left: 2px;">12- Prey Veng</a>
+                            <a href="#" style="margin-left: 2px;">13- Kratie</a>
+                            <a href="#" style="margin-left: 2px;">14- Mondul Kiri</a>
+                            <a href="#" style="margin-left: 2px;">15- Rathanak Kiri</a>
+                            <a href="#" style="margin-left: 2px;">16- Steng Treng</a>
+                            <a href="#" style="margin-left: 2px;">17- Oudor Mean Chey</a>
+                            <a href="#" style="margin-left: 2px;">18- Preah Vihear</a>
+                            <a href="#" style="margin-left: 2px;">19- Seim Reap</a>
+                            <a href="#" style="margin-left: 2px;">20- Bantay Mean Chey</a>
+                            <a href="#" style="margin-left: 2px;">21- Bathambong</a>
+                            <a href="#" style="margin-left: 2px;">22- Pai Lin</a>
+                            <a href="#" style="margin-left: 2px;">23- Krong Soung</a>
+                            <a href="#" style="margin-left: 2px;">24- Phnom Penh Capital</a>
+                        </div>                            
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <style>
+                body {
+                  font-family: "Lato", sans-serif;
+                  font-size: 20px;
+                }
+                .sidenav {
+                  width: 400px;
+                  height: 100%;                  
+                  /*position: fixed;*/
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  padding-top: 5px;
+                  background-color: #ffffff;
+                  color: rgb(0, 1, 0);                  
+                  overflow-y: auto;
+                }
+                .sidenav a, .dropdown-btn-2 {
+                  padding: 15px 8px 6px 5px;
+                  text-decoration: none;
+                  font-size: 12px;
+                  color: #000000;
+                  display: block;
+                  border: none;
+                  background: none;
+                  width: 100%;
+                  height: 35px; /*========== New Code ========*/
+                  text-align: left;
+                  cursor: pointer;
+                  outline: none;
+                }
+                .sidenav a:hover, .dropdown-btn-2:hover {
+                  color: #ffffff;
+                  background-color: rgb(44, 52, 199, 0.5);
+                }
+                .active {
+                  background-color: rgb(44, 52, 199, 0.5);
+                  color: rgb(255, 255, 255);
+                }
+                .dropdown-container {
+                  display: none;
+                  background-color: #ffffff;
+                  padding-left: 8px;
+                }
+                .fa-caret-down {
+                  float: right;
+                  padding-right: 8px;
+                }
+                @media screen and (max-height: 250px) {
+                  .sidenav {padding-top: 5px;}
+                  .sidenav a {font-size: 8px;}
+                }
+            </style>
+
+
+            <script>
+                /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                var dropdown = document.getElementsByClassName("dropdown-btn-2");
+                var i;
+                
+                for (i = 0; i < dropdown.length; i++) {
+                  dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                      dropdownContent.style.display = "none";
+                    } else {
+                      dropdownContent.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+        
+    <!--Advertistment -->
+    
+            <div class="sidebar-title">
+                <h4>Advertistment</h4>
+                <a href="#"></a>
+            </div>
+
+            <!-- Below New Code for Image Slice Change =======================-->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/advertising.png" style="width:100%; height: 300px;">
+                    <div class="text">Advertising Photo</div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/feed-image-3.png" style="width:100%; height: 300px;">
+                    <div class="text">Caption Two</div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/profile-pic.png" style="width:100%; height: 300px;">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/advertisement.png" style="width:100%; height: 300px;">
+                    <div class="text">Caption Four</div>
+                </div>
+    
+            </div><br>
+    
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+            <!-- Old COde ====
+                <img src="images/advertising.png" class="sidebar-ads">
+            -->
+
+        </div><br> <!-- Close Braket from Class Right Side Border -->
+
+
+<!-- Image Slice Change ============================================-->
+        <style>
+            * {box-sizing: border-box;}
+            body {font-family: Verdana, sans-serif;}
+            .mySlides {display: none;}
+            img {vertical-align: middle;}
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+            /* Caption text */
+            .text {
+              color: #0004ff;
+              font-size: 15px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: -28px;
+              width: 100%;
+              text-align: center;
+            }
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            /* The dots/bullets/indicators */
+            .dot {
+              height: 15px;
+              width: 15px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+              margin-bottom: -10px;
+            }
+            .active {
+              background-color: #717171;
+            }
+            /* Fading animation */
+            .fade {
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+            @keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .text {font-size: 11px}
+            }
+            </style>
+<script>
+    let slideIndex = 0;
+    showSlides();    
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+    </script>
+    
+    <h3>Menu List:</h3>
+    <div style="background-color: blue; width: 100%; height: 2px;"></div> <br>
+        
+    <!--Chart ==============================-->
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" style="font-size: 25px;">
+
+    <div class="chat-box">
+                <!-- =============== Create for Search Box ================ -->
+                <div class="row">
+                    <div class="left" style="background-color:#dbd8d8;">                       
+                        <ul id="myMenu">
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 1: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 1: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 1: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 6: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 2: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 2: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 2: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 3: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 3: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 3: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 4: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 4: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 4: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 5: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 5: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 5: Social</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 6: Khmer</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 6: Math</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="text-decoration: none;" class="img-chat">
+                                    <div class="online-list">
+                                        <div class="online">
+                                            <img src="photo/book-img.png">
+                                        </div>
+                                        <p>Grade 6: Social</p>
+                                    </div>
+                                </a>
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2023 Soma Tech</p>
+    </div>
+
+
+<script>
+    function myFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMenu");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+</script>
+<!-- ================================================= -->
+
+<script src="Script.js"></script>
+</body>
+</html>
